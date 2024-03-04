@@ -1,0 +1,106 @@
+header, section, nav, main, footer, aside{
+    display: block;
+}
+
+/* Mobile Layout and Base Styles */
+
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    padding: 0 10px;
+    margin: 0 60px;
+    margin-top: 5px;
+    background: #5a9ff3 url(Pictures/Background1.jpg) no-repeat fixed;
+    background-repeat: no-repeat;
+    background-position: right top; /* Adjusted background position */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-color: linear-gradient(to bottom, #659DBD, #a6d2ec, #cfe4f0);
+}
+
+#topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
+    width: 100%;
+    margin-bottom: 40px;
+    color: white;
+    border-radius: 100px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.10);
+    backdrop-filter: blur(3px);
+}
+
+#topbar, nav{
+    text-shadow: 1px 1px black;
+}
+
+#name{
+    display: none;
+    flex-direction: row;
+    border: 2px solid;
+}
+
+#name img{
+    margin: 0 0;
+    width: 50px;
+}
+
+#name h2{
+    align-self: center;
+    margin: 0 0;
+}
+
+nav{
+    align-self: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0 0;
+    margin: 0 0;
+}   
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: border-bottom 100ms ease-in-out, padding-bottom 100ms ease-in-out;
+}
+
+nav a:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid;
+}
+
+h1{
+    font-family: monospace;
+    font-size: 45px;
+}
+
+p{
+    font-size: 18px;
+}
+
+@media screen and (min-width: 480px){
+   #name{
+    display: flex;
+   }
+
+   nav ul{
+    justify-content: space-between;
+   }
+}
+
+/* Desktop Layour */
+@media screen and (min-width: 800px){
+    
+}

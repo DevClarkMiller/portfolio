@@ -1,0 +1,52 @@
+body{
+    background-position-y: -15px;
+}
+
+#content{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 50px;
+}
+
+section{
+    width: 75%;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+p, h1{
+    border: none;
+    border-radius: 5px;
+}
+
+h1{
+    letter-spacing: 6px;
+    color: #284387;
+    text-shadow: 1px 1px 1px white;
+    font-size: 75px;
+    font-weight: bold;
+    padding: 5px 5px;
+    margin: 0 0;
+    width: fit-content;
+}
+
+p{
+    border-radius: 25px;
+    backdrop-filter: blur(2px);
+    text-shadow: 1px 4px 4px #284387;
+    font-size: 25px;
+    text-align: left;
+    padding: 10px 10px;
+    width: 75%;
+}
+
+#seeProjects{
+    border-radius: 5px;
+    border: 0.1px solid;
+}
